@@ -112,7 +112,7 @@ services:
       - .:/app
     ports:
       - "8000:8000"
-    command: php artisan serve --host=0.0.0.0 --port=8000
+    command: sh -c "php artisan migrate --seed && php artisan serve --host=0.0.0.0 --port=8000"
 ```
 
 Now when you run `docker-compose up --build`, it will build the image from your `Dockerfile`.
