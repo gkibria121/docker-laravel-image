@@ -1,0 +1,16 @@
+{
+    "name": "gk/docker-laravel-image",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Gk\\DockerLaravelImage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "gkibria",
+            "email": "gkibria121@gmail.com"
+        }
+    ],
+    "require": {}
+}
